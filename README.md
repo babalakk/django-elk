@@ -31,10 +31,3 @@ $ docker volume rm elk_elk-data
 ```console
 $ docker container rm elk
 ```
-
-## Setting
-
-### Timezone
-
-For timestamp incorrect issue:
-- Kibana -> Management -> Advanced Settings -> Timezone for date formatting -> UTC
